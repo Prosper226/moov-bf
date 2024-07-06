@@ -1,0 +1,20 @@
+{
+    "name": "barkalab/mobile",
+    "autoload": {
+        "psr-4": {
+            "lab\\Operator\\": "src/Operator/",
+            "lab\\Service\\": "src/Service/",
+            "lab\\Logger\\": "src/Logger/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Prosper226",
+            "email": "psedgo@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "monolog/monolog": "^3.6"
+    }
+}
